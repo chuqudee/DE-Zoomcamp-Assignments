@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dtc-data-engineering-448712   # Ensure this matches your BigQuery project ID
+    schema: trips_data_all                   # Ensure this matches your dataset in BigQuery
+    tables:
+      - name: green_2019_2020_tripdata
+      - name: yellow_2019_2020_tripdata

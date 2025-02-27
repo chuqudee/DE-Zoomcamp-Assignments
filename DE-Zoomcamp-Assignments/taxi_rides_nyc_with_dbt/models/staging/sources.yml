@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dtc-data-engineering-448712  # Replace with your GCP project ID
+    schema: trips_data_all  # The dataset name in BigQuery
+    tables:
+      - name: zones
